@@ -1,0 +1,12 @@
+insert into fsm values(	1	,	"all"	,	"default"	,	1	);
+insert into fsm values(	2	,	"None"	,	"register_0"	,	1	);
+insert into fsm values(	3	,	"register_0"	,	"register_1"	,	1	);
+insert into fsm values(	4	,	"register_1"	,	"pass_1"	,	0	);
+insert into fsm values(	5	,	"pass_1"	,	"pass_2"	,	0	);
+insert into fsm values(	6	,	"pass_2"	,	"pass_3"	,	0	);
+insert into fsm values(	7	,	"pass_3"	,	"home"	,	0	);
+insert into fsm values(	8	,	"register_1"	,	"pass_3"	,	0	);
+insert into fsm values(	9	,	"home"	,	"referal_1"	,	0	);
+insert into fsm values(	10	,	"referal_1"	,	"referal_2"	,	0	);
+insert into fsm values(	11	,	"referal_2"	,	"referal_3"	,	0	);
+insert into fsm values(	12	,	"referal_3"	,	"home"	,	0	);

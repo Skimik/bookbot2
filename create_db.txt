@@ -1,0 +1,38 @@
+
+create table user_db(
+telegram_id int,
+username varchar(50),
+pass varchar(50),
+pass_time datetime,
+pass_count int,
+role int,
+dep_status int,
+dep_balance varchar(50),
+dept_bet varchar(50),
+ref_link varchar(50),
+ref_acc varchar(50),
+ref_count int,
+reg_time datetime,
+last_mes_time datetime,
+last_mes_bot_id int,
+last_mes_bot_inline_id int,
+last_mes_user_id int,
+fsm_code int,
+fsm_wait int,
+fsm_param varchar(200)
+);
+
+create table fsm(
+track int,
+point_a varchar(50),
+point_b varchar(50),
+back int
+);
+
+(не обязательно)
+create table update_mes(
+telegram_id int,
+mes_id int,
+update_type int,
+update_param char(250),
+update_time datetime);
